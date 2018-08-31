@@ -134,7 +134,7 @@ function show_orders_table()
     data_table.appendChild(th3);
     data_table.appendChild(th4);
     let tr = document.createElement('tr');
-   /* for(let i = 0; i <= orders.length; i++)
+    for(let i = 0; i <= orders.length; i++)
     {
            let el = document.createElement("td");
            let el2 = document.createElement("td");
@@ -150,7 +150,7 @@ function show_orders_table()
            tr.appendChild(el4);
            data_table.appendChild(tr);
            //tr.innerHTML = "";
-        }*/
+        }
         main2.appendChild(data_table);
 
 }
